@@ -47,6 +47,9 @@ SoC 설계 및 프로그래밍은 Verilog롸 SoC 설계 키트를 이용해서 �
 
 
 
+### 6. Two-level Carry-look-ahead adder 설계
+> Group size가 4인 16bits two-level carry-look-ahead adder. 
+총 4개의 module로 구성 : adder, clag, cla_4bits, cla_16bits
 
 
 
