@@ -55,12 +55,26 @@ SoC 설계 및 프로그래밍은 Verilog롸 SoC 설계 키트를 이용해서 �
 
 
 ### 7. Digital Clock (FPGA Programming)
-> 1) HDL coding :25MHz clock을 분주하여 1Hz clock 생성 및 시간(시/분/초) count, Text LCD 및 7-segment 제어 회로를 구현하여 count한 시간을 text
+> 1) HDL coding : 25MHz clock을 분주하여 1Hz clock 생성 및 시간(시/분/초) count, Text LCD 및 7-segment 제어 회로를 구현하여 count한 시간을 text
 LCD와 7-segment에 출력
 
 > 2) HDL simulation
 
 > 3) FPGA(ZYNQ PL part) programming : pin assign, bitstream generation, programming
+
+
+
+### 8. Digital Clock (SoC Programming)
+> 1) AXI4 slave로서의 7-segment 제어 IP 설계 : 기존에 설계된 7-segment 제어 IP를 AXI4-Lite peripheral로 재설계
+
+> 2) Hardware base system 설계 : IP Integrator를 이용한 block design 기반 설계
+
+> 3) Digital clock 구현을 위한 SoC programming (software design)
+
+> 4) HW/SW integration 및 verification
+
+
+
 
 
 
