@@ -75,6 +75,10 @@ LCD와 7-segment에 출력
 
 
 
+### 9. Interrupt (SoC Programming)
+> 1) Push button interrupt 처리를 위한 AXI 인터페이스 기반 hardware system 개발 : IP Integrator를 이용한 block design 기반 설계
+
+> 2) Interrupt 처리를 위한 SoC programming (software design) : Interrupt 서비스 루틴 구현
 
 
 
